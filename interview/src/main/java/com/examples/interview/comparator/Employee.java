@@ -2,8 +2,9 @@ package com.examples.interview.comparator;
 
 import java.util.Comparator;
 
-/*So now we know that if we want to sort java object array or list, we need to implement java Comparable interface to provide default sorting and we should implement java Comparator interface to provide different ways of sorting.*/
-
+/*So now we know that if we want to sort java object array or list, 
+ * we need to implement java Comparable interface to provide default sorting 
+ * and we should implement java Comparator interface to provide different ways of sorting.*/
 
 //Here is the final classes we have explaining Comparable and Comparator in Java.
 public class Employee implements Comparable<Employee> {
